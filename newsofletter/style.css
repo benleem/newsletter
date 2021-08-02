@@ -1,0 +1,186 @@
+/* main color rgb(42, 201, 55) */
+
+/* General styling */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    max-width: 600px;
+    width: 100%;
+    margin: auto;
+    border-spacing: 0; 
+}
+
+.wrapper{
+    padding: 30px 0 30px 0;
+    border-bottom: 1px solid rgb(100,100,100,.2);
+}
+
+.main_content p, .main_content li{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    padding-bottom:15px;
+}
+
+button{
+    border: 0; 
+    box-shadow: none; 
+    border: 0px; 
+    outline: none;
+    text-transform: uppercase;
+    padding: 10px 15px 10px 15px;
+    border-radius: 20px;
+    color: rgb(42, 201, 55);
+    background-color: rgb(42, 201, 55,.1);
+    font-weight: 600;
+}
+
+h2{
+    padding: 30px 0 30px 0; 
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+}
+
+ul{
+    padding-left: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(42, 201, 55);
+}
+
+strong{
+    font-weight: 600;
+}
+
+/* Moves */
+
+.moves li{
+    display: inline-block;
+    font-weight: 600;
+}
+
+.moves ul{
+    padding-left: 0;
+    padding-top: 5px;
+}
+
+.percent{
+    color: rgb(42, 201, 55);
+}
+
+.percent_down{
+    color: red;
+}
+
+/* Launch */
+
+.takeaway{
+    padding-left: 0;
+}
+
+.takeaway li{
+    display: inline-block;
+
+}
+
+/* Snackin */
+
+.start_snackin{
+    padding-left: 0;
+}
+
+.start_snackin li{
+    display: inline;
+}
+
+/* Podcasts */
+
+.stripe {
+    position: relative;
+    display: block;
+}
+.stripe:before {
+    content:"";
+    background-color: rgb(42, 201, 55, .06);
+    position: absolute;
+    height: 100%;
+    width: 99999px;
+    left: -2000px;
+    z-index: -1;
+}
+
+.wizardry{
+    display: none;
+}
+
+.double_buttons{
+    width: 600px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    /* font-size: 0; */
+}
+
+.button{
+    background-color: white;
+    border: 1px solid rgb(100, 100, 100,.3);
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+}
+
+.button td{
+    vertical-align: middle;
+    background-color: white;
+}
+
+.button img{
+    display: block;
+    width: 55px;
+}
+
+.listen{
+    font-size: 14px;
+}
+
+.podcast{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+/* Footer */
+
+.help{
+    padding-left: 0;
+    padding-bottom: 15px;
+    line-height: 2;
+}
+
+.help li{
+    display: inline-block;
+    padding-right: 10px;
+    padding-bottom: 0;
+}
+
+@media screen and (max-width: 600px){
+    .wrapper{
+        padding: 30px 3% 30px 3%;
+    }
+    .banner_wrapper{
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    .special_wrapper{
+        padding: 0 3% 0 3%;
+    }
+}
+
+@media screen and (max-width: 519px){
+    .wizardry{
+        display: block;
+    }
+
+}
